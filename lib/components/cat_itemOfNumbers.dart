@@ -1,0 +1,15 @@
+// ignore: file_names
+import 'package:flutter/material.dart';
+
+class Category extends StatelessWidget {
+  const Category({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Row(
+        children: [Image.asset('number_one.png')],
+      ),
+    );
+  }
+}
